@@ -101,4 +101,3 @@ turtleDrawer.alter([
 ])
 
 turtleDrawer.exitonclick()
-pri

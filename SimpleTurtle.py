@@ -18,7 +18,7 @@ class SimpleTurtle:
             try:
                 movementMethod = getattr(self.stateChange, directionString)
             except:
-                raise NotADirectoryError("Direction type not applicable")
+                raise NameError("Alter method not applicable. You may want a correct direction or method.")
 
             if len(operation) == 2:
                 movementMethod(operation[1])
